@@ -1,24 +1,17 @@
-# Simulação de Movimentos de Xadrez em C
+# Simulação Avançada de Xadrez em C
 
-Este projeto demonstra o movimento de três peças de xadrez usando diferentes estruturas de repetição em C.
+Implementação completa com recursividade e loops complexos
 
-## Peças implementadas
+## Funcionalidades Implementadas
 
--   **Torre**: move-se em linha reta (5 casas para direita) usando `for`
--   **Bispo**: move-se na diagonal (5 casas) usando `while`
--   **Rainha**: move-se em linha reta (8 casas para esquerda) usando `do-while`
+-   **Torre**: Movimento recursivo horizontal
+-   **Bispo**: Duas implementações (recursiva e com loops aninhados)
+-   **Rainha**: Movimento recursivo horizontal
+-   **Cavalo**: Movimento em L com loops complexos
 
-## Como compilar e executar
+## Como Compilar e Executar
 
 ```bash
 gcc xadrez.c -o xadrez
 ./xadrez
 ```
-
-## Saída esperada
-
-O programa mostrará a direção do movimento para cada casa que cada peça percorre.
-
-## Autor
-
-[Seu Nome] - [Seu email ou contato]
